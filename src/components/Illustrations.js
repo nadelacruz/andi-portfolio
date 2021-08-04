@@ -13,10 +13,10 @@ const Illustrations = () => {
         "https://i.ibb.co/092MHk0/Kazuha-and-Beidou.png",
     ];
     return (
-        <Box>
-            <Box height="80vh" width="auto" margin="25px">
+        <Box backgroundColor="#000000">
+            <Box height="270vh" width="auto">
                 <Box display="flex" flexDirection="column" alignItems="center" >
-                    <Text fontSize="4xl" id="Illustrations">Illustrations</Text>
+                    <Text fontSize="4xl" id="Illustrations" color="white">Illustrations</Text>
                     {gallery.map(image => <Thumbnails src={image}/>)}
                 </Box>
             </Box>
