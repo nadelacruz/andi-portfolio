@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Image, Text, MenuButton, Button, Menu } from '@chakra-ui/react'
+import { Box, Image, Text, Button } from '@chakra-ui/react'
 import { FaInstagram, FaTwitter } from 'react-icons/fa'
 
 const Profile = () => {
